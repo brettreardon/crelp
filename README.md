@@ -10,3 +10,7 @@ Kylan Kempster
 Weiyue Lin
 Stephen Naramore
 Tyler Paplham
+
+See Wiki for design documentation and measurement information
+
+See https://waffle.io/brettreardon/crelp or the Issues page for backlog.
