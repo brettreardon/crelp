@@ -1,14 +1,39 @@
-.swipe {
-  overflow: hidden;
-  visibility: hidden;
-  position: relative;
+.cardstack
+{
+	position: fixed;
+	top: 7vh;
+	left: 0px;
+	display: none;
 }
-.swipe-wrap {
-  overflow: hidden;
-  position: relative;
+
+.firstCard
+{
+	display: block;
 }
-.swipe-wrap > div {
-  float:left;
-  width:100%;
-  position: relative;
+.header
+{
+	
+}
+.footer
+{
+	position: fixed;
+    bottom: 0;
+	width: 100vw;
+}
+
+.glyphicon.glyphicon-thumbs-up 
+{
+    font-size: 20vw;
+}
+.glyphicon.glyphicon-thumbs-down 
+{
+    font-size: 20vw;
+}
+.red
+{
+	color: red;
+}
+.green
+{
+	color: green;
 }
