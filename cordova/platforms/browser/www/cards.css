@@ -1,0 +1,93 @@
+ul, li
+{
+	list-style: none;
+}
+.fixed-row
+{
+	left: 0px;
+}
+.cardstack
+{
+	position: fixed;
+	top: 6vh;
+	#left: 0px;
+	display: none;
+	overflow: scroll;
+    height: 82vh;
+}
+
+.firstCard
+{
+	display: block;
+}
+.header
+{
+	-webkit-box-shadow: 0px 3px 25px 0px rgba(92,92,92,0.72);
+	-moz-box-shadow: 0px 3px 25px 0px rgba(92,92,92,0.72);
+	box-shadow: 0px 3px 25px 0px rgba(92,92,92,0.72);
+	max-height: 6vh;
+}
+.footer
+{
+	-webkit-box-shadow: 0px 3px 25px 0px rgba(92,92,92,0.72);
+	-moz-box-shadow: 0px 3px 25px 0px rgba(92,92,92,0.72);
+	box-shadow: 0px 3px 25px 0px rgba(92,92,92,0.72);
+	position: fixed;
+    bottom: 0vh;
+	width: 102vw;
+    margin-left: -3.5vw;
+}
+
+.glyphicon.glyphicon-thumbs-up 
+{
+    font-size: 10vh;
+}
+.glyphicon.glyphicon-thumbs-down 
+{
+    font-size: 10vh;
+}
+.glyphicon.glyphicon-menu-hamburger
+{
+	padding-top: .5vh;
+	font-size: 5em;
+	padding-bottom .25vh;
+}
+.red
+{
+	color: red;
+}
+.green
+{
+	color: green;
+}
+.brand
+{
+
+    font-weight: 900;
+	font-size: 50px;
+}
+.sidemenu
+{
+	position: fixed;
+    width: 95vw;
+    height: 100vh;
+    font-weight: 900;
+    font-size: 75px;
+    background-color: white;
+    border-right: darkgray;
+    border-right-style: inset;
+	padding-left: 5vw;
+    border-top: darkgray;
+    border-top-style: groove;
+    margin-top: 1vh;
+}
+.sidebar-nav li
+{
+	font-size: 50px;
+	padding: 2vh;
+}
+.sidebar-brand a
+{
+	padding: 2.25vh;
+	font-size: 60px;
+}
