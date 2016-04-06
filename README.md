@@ -17,3 +17,6 @@ Tyler Paplham
 See Wiki for design documentation and measurement information
 
 See https://waffle.io/brettreardon/crelp or the Issues page for backlog.
+
+
+go to "cordova\platforms\android\build\outputs\apk" for the APK file for the app.
