@@ -20,3 +20,5 @@ See https://waffle.io/brettreardon/crelp or the Issues page for backlog.
 
 
 go to "cordova\platforms\android\build\outputs\apk" for the APK file for the app.
+
+htmShell.html is the html shell for each page of the application, in case anyone needs it. Anything added to this shell should be within the page content wrapper.
