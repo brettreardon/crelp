@@ -102,3 +102,68 @@ ul, li
 {
 	max-height: 35vh;
 }
+.label-1
+{
+	background-color: rgba(52,148,186,1);
+}
+.label-2
+{
+	background-color: rgba(88,182,192,1);
+}
+.label-3
+{
+	background-color: rgba(117,189,167,1);
+}
+.label-4
+{
+	background-color: rgba(122,140,142,1);
+}
+.br
+{
+	width: 108%;
+    border-top: darkgray .5px solid;
+    border-bottom: darkgray .5px solid;
+    box-shadow: 0px .5px .5px grey;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: -4%;
+}
+.lg
+{
+	font-size: large;
+}
+.md
+{
+	font-size: medium;
+}
+.sm
+{
+	font-size: small;
+	height: 100%;
+}
+.hh3
+{
+	    font-size: 24px;
+}
+
+.line-break
+{
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.matches
+{
+
+	transition: all 1s linear;
+	#overflow:hidden;
+
+}
+.item
+{
+	#overflow: hidden;
+	#transition: all 1s ease;
+}
+.img-thumb
+{
+	    max-height: 12vh;
+}

@@ -4,6 +4,7 @@ var cards = $('.cardstack');
 var cardIndex = 0;
 var moreDetailSwitched = false;
 
+
 cards.hammer().on('swipeleft', function(ev) {
 	leftSwipe();
 });
@@ -13,6 +14,7 @@ cards.hammer().on('swiperight', function(ev) {
 cards.hammer().on('tap', function(ev) {
 	detailToggle();
 });
+
 
 function cycleCard()
 {

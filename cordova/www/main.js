@@ -3,16 +3,21 @@
 var cards = $('.cardstack');
 var cardIndex = 0;
 var moreDetailSwitched = false;
+beersLocal = {};
+displayedBeer = "";
 
 cards.hammer().on('swipeleft', function(ev) {
 	leftSwipe();
 });
 cards.hammer().on('swiperight', function(ev) {
+	displayedBeer = cards[cardIndex];
+	addBeer();
 	rightSwipe();
 });
 cards.hammer().on('tap', function(ev) {
 	detailToggle();
 });
+
 
 function cycleCard()
 {
@@ -47,6 +52,7 @@ function leftSwipe()
 	cycleCard();
 	$(cards[cardIndex]).css('display','block');
 	console.log('card changed');
+	displayedBeer = cards[cardIndex];
 }	
 function rightSwipe()
 {
@@ -54,4 +60,5 @@ function rightSwipe()
 	cycleCard();
 	$(cards[cardIndex]).css('display','block');
 	console.log('card changed');
+	displayedBeer = cards[cardIndex];
 }
